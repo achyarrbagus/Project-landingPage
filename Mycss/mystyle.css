@@ -1,0 +1,104 @@
+.navbar {
+  border-bottom: 3px solid cyan;
+}
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: Viga, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+.navbar-brand:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+/* jumbotron */
+.jumbotron {
+  background-image: url(../assets/wallpapersden.com_blue-background-geometric-abstract_640x1136.jpg);
+  background-size: cover;
+  height: 640px;
+  margin-top: -75px;
+}
+.jumbotron .display-4 {
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color: white;
+  margin-top: 150px;
+}
+/* my font */
+.font-paragraf {
+  font-family: montserrat, Tahoma, sans-serif;
+}
+.font-heading {
+  font-family: Viga, Geneva, Tahoma, sans-serif;
+}
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+/* button */
+.btn {
+  font-family: Viga, Geneva, Tahoma, sans-serif;
+}
+/* my foto */
+.my-foto {
+  height: 300px !important;
+}
+/* about */
+.about {
+  margin-top: 120px;
+}
+.bagian-kanan {
+  margin-top: 30px;
+}
+.bagian-kiri {
+  border-right: solid 5px yellow;
+}
+.kalimat-foto {
+  margin-right: ;
+}
+/* portfolio */
+.portfolio {
+  margin-bottom: 120px;
+}
+.portfolio .card {
+  height: 100px;
+}
+/* blog */
+.blog {
+  margin-bottom: 120px;
+}
+/* team */
+.team {
+  margin-bottom: 120px;
+}
+/* contact */
+.contact {
+  margin-top: 120px;
+}
+.contact button {
+  width: 100%;
+}
+.get {
+  padding-top: 30%;
+}
